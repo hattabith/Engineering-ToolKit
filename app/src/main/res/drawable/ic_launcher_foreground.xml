@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered Chip Body (around 54, 54; size 36x36 -> 36 to 72) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M37,35h34a4,4 0 0,1 4,4v30a4,4 0 0,1 -4,4h-34a4,4 0 0,1 -4,-4v-30a4,4 0 0,1 4,-4z" />
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M37,35h34a4,4 0 0,1 4,4v30a4,4 0 0,1 -4,4h-34a4,4 0 0,1 -4,-4v-30a4,4 0 0,1 4,-4z" />
+    
+    <!-- Chip Pins Top & Bottom -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M43,35v-6 M54,35v-7 M65,35v-6 M43,73v6 M54,73v7 M65,73v6" />
+    <!-- Chip Pins Left & Right -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M33,43h-6 M33,54h-7 M33,65h-6 M75,43h6 M75,54h7 M75,65h6" />
+
+    <!-- Corner pin index dot -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M40,41a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+
+    <!-- Ohm / Pulse Symbol inside chip -->
+    <!-- Resistor / Ohm symbol inside center -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M44,61h4 c1,-4 3,-7 6,-7 s5,3 6,7 h4" />
+    <path
+        android:strokeColor="#F8FAFC"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M47,51 l7,-9 l-3,9 l6,0 l-8,9 l2,-6 z" />
+
+    <!-- Exterior circuit traces and solder pads -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M27,43h-3v-8h-3 M81,65h4v8h3 M54,28v-4h6 M54,80v4h-6" />
+    <!-- Solder pads -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M21,35a2,2 0 1,0 4,0a2,2 0 1,0 -4,0 M88,73a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+</vector>

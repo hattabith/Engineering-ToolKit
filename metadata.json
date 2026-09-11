@@ -1,0 +1,6 @@
+{
+  "name": "Engineering Toolkit",
+  "description": "Offline engineering calculator for electronics, embedded systems, PCB design, and battery packs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
